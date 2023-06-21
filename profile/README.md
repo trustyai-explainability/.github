@@ -22,9 +22,10 @@ Additional information specific for this project can be found in the [community]
 
 #### Core
 
-- [explainability-core](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-core): The core TrustyAI algorithms, including explainers and metrics.
+- [explainability-core](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-core): The core TrustyAI algorithms, including explainers and metrics
 - [explainability-service](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-service): TrustyAI ODH component and ModelMesh integrations
-- [trustyai-explainability-python](https://github.com/trustyai-explainability/trustyai-explainability-python): A Python library allowing usage of TrustyAI from the Python ecosystem (including Jupyter notebooks).
+- [trustyai-explainability-python](https://github.com/trustyai-explainability/trustyai-explainability-python): A Python library allowing usage of TrustyAI from the Python ecosystem (including Jupyter notebooks)
+- [trustyai-service-operator](https://github.com/trustyai-explainability/trustyai-service-operator): The TrustyAI Kubernetes Operator
 
 #### Tutorials
 
