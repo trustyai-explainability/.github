@@ -2,12 +2,13 @@
 TrustyAI is an open source AI Explainability (XAI) Toolkit. 
 It provides a Java and Python library and [Open Data Hub](https://github.com/opendatahub-io) (ODH) component for XAI explanations of predictive models for both enterprise and data science. 
 
-The project roadmap offers a view on new tools and integration the project developers are planning to add.
+The [project roadmap](https://github.com/orgs/trustyai-explainability/projects/10) offers a view on new tools and integration the project developers are planning to add.
 
 Included in the TrustyAI core library are several tools, which include:
 
 - Local explainers
 - Global explainers
+- Time-series explainers
 - Fairness metrics
 - ModelMesh integration
 
