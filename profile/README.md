@@ -32,6 +32,7 @@ Additional information specific for this project can be found in the [community]
 #### Tutorials
 
 - [trustyai-explainability-python-examples](https://github.com/trustyai-explainability/trustyai-explainability-python-examples): Examples on how to get started with the Python TrustyAI library.
+- [trustyai-odh-demos](https://github.com/trustyai-explainability): Demos of the TrustyAI Service within Open Data Hub.
 
 #### Archived
 
