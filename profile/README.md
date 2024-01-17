@@ -11,6 +11,7 @@ Included in the TrustyAI core library are several tools, which include:
 - Time-series explainers
 - Fairness metrics
 - Drift metrics
+- Language performance metrics
 - KServe and ModelMesh integration
 
 TrustyAI uses the [ODH governance model](https://github.com/opendatahub-io/opendatahub-community/blob/master/governance.md) and [code of conduct](https://github.com/opendatahub-io/opendatahub-community/blob/master/CODE_OF_CONDUCT.md).
