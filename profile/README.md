@@ -17,6 +17,8 @@ Included in the TrustyAI core library are several tools, which include:
 TrustyAI uses the [ODH governance model](https://github.com/opendatahub-io/opendatahub-community/blob/master/governance.md) and [code of conduct](https://github.com/opendatahub-io/opendatahub-community/blob/master/CODE_OF_CONDUCT.md).
 Additional information specific for this project can be found in the [community](https://github.com/trustyai-explainability/community) repository.
 
+**Discussion:** https://github.com/orgs/trustyai-explainability/discussions
+
 **Contribution Guidelines:** https://github.com/trustyai-explainability/trustyai-explainability/blob/main/CONTRIBUTING.md
 
 **Roadmap:** https://github.com/orgs/trustyai-explainability/projects/10
