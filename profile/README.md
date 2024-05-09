@@ -12,7 +12,11 @@ Included in the TrustyAI core library are several tools, which include:
 - Fairness metrics
 - Drift metrics
 - Language performance metrics
-- KServe and ModelMesh integration
+
+TrustyAI also provides the following integrations:
+
+- KServe and ModelMesh support in Kubernetes, OpenShift and OpenDataHub
+- KServe side-car explainer support
 
 TrustyAI uses the [ODH governance model](https://github.com/opendatahub-io/opendatahub-community/blob/master/governance.md) and [code of conduct](https://github.com/opendatahub-io/opendatahub-community/blob/master/CODE_OF_CONDUCT.md).
 Additional information specific for this project can be found in the [community](https://github.com/trustyai-explainability/community) repository.
@@ -31,6 +35,7 @@ Additional information specific for this project can be found in the [community]
 - [explainability-service](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-service): TrustyAI ODH component and ModelMesh integrations
 - [trustyai-explainability-python](https://github.com/trustyai-explainability/trustyai-explainability-python): A Python library allowing usage of TrustyAI from the Python ecosystem (including Jupyter notebooks)
 - [trustyai-service-operator](https://github.com/trustyai-explainability/trustyai-service-operator): The TrustyAI Kubernetes Operator
+- [trustyai-kserve-explainer](https://github.com/trustyai-explainability/trustyai-kserve-explainer): TrustyAI as a KServe built-in explainer
 
 #### Tutorials
 
