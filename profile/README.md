@@ -12,6 +12,7 @@ Included in the TrustyAI core library are several tools, which include:
 - Fairness metrics
 - Drift metrics
 - Language performance metrics
+- Generative text model evaluation and benchmark 
 
 TrustyAI also provides the following integrations:
 
