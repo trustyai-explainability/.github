@@ -34,7 +34,7 @@ drift and bias measurements throughout your deployment.
 
 
 ### Language Model Evaluation Service  
-The **[LM-Eval K8s Service](https://github.com/trustyai-explainability/trustyai-service-operator/tree/main/controllers/lmes)** packages and serves EluetherAI's popular [LM-Evaluation-Harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks) library in a Kubernetes environment, allowing for scalable evaluations running against K8s LLM servers such as vLLM. 
+The **[LM-Eval K8s Service](https://github.com/trustyai-explainability/trustyai-service-operator/tree/main/controllers/lmes)** packages and serves EleutherAI's popular [LM-Evaluation-Harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks) library in a Kubernetes environment, allowing for scalable evaluations running against K8s LLM servers such as vLLM. 
 
 
 ### Language Model Guardrails Project
