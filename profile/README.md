@@ -53,6 +53,9 @@ While these are our largest and most active projects, also check out our [full l
 - [trustyai-explainability-python-examples](https://github.com/trustyai-explainability/trustyai-explainability-python-examples): Examples on how to get started with the Python TrustyAI library.
 - [trustyai-odh-demos](https://github.com/trustyai-explainability/odh-trustyai-demos): Demos of the TrustyAI Service within Open Data Hub.
 
+### Demos
+- Coming Soon
+
 ### Blog Posts
 - [An Introduction to TrustyAI](https://www.redhat.com/en/blog/introduction-trustyai)
 - [TrustyAI Detoxify: Guardrailing LLMs during training](https://developers.redhat.com/articles/2024/08/01/trustyai-detoxify-guardrailing-llms-during-training)
@@ -65,10 +68,15 @@ While these are our largest and most active projects, also check out our [full l
 
 ** **
 ## 🤝 Join Us 🤝
-Check our [community repository](https://github.com/trustyai-explainability/community) for [discussions](https://github.com/orgs/trustyai-explainability/discussions) as well as our the schedule and past recordings of our Community Meeting. The [project roadmap](https://github.com/orgs/trustyai-explainability/projects/10) offers a view on new tools and integration the project developers are planning to add. TrustyAI uses the [ODH governance model](https://github.com/opendatahub-io/opendatahub-community/blob/master/governance.md) and [code of conduct](https://github.com/opendatahub-io/opendatahub-community/blob/master/CODE_OF_CONDUCT.md).
+Check out our [community repository](https://github.com/trustyai-explainability/community) for [discussions](https://github.com/orgs/trustyai-explainability/discussions) and our [Community Meeting information](https://github.com/trustyai-explainability/community?tab=readme-ov-file#community-meetings). 
 
+The [project roadmap](https://github.com/orgs/trustyai-explainability/projects/10) offers a view on new tools and integration the project developers are planning to add.
 
-#### [Discussion](https://github.com/orgs/trustyai-explainability/discussions)
-#### [Contribution Guidelines](https://github.com/trustyai-explainability/trustyai-explainability/blob/main/CONTRIBUTING.md)
-#### [Roadmap](https://github.com/orgs/trustyai-explainability/projects/10)
+TrustyAI uses the [ODH governance model](https://github.com/opendatahub-io/opendatahub-community/blob/master/governance.md) and [code of conduct](https://github.com/opendatahub-io/opendatahub-community/blob/master/CODE_OF_CONDUCT.md).
+
+### Links
+- [Community Meeting Info](https://github.com/trustyai-explainability/community?tab=readme-ov-file#community-meetings)
+- [Discussion Forum](https://github.com/orgs/trustyai-explainability/discussions)
+- [Contribution Guidelines](https://github.com/trustyai-explainability/trustyai-explainability/blob/main/CONTRIBUTING.md)
+- [Roadmap](https://github.com/orgs/trustyai-explainability/projects/10)
 
