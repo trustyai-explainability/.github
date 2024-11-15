@@ -8,7 +8,7 @@
 - Language model benchmarking
 - Language model guardrails
 
-TrustyAI is a default component of [Open Data Hub](https://opendatahub.io/) and [Red Hat Openshift AI](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai), and has integrations with projects like [KServe](https://www.google.com/search?q=kserve&sourceid=chrome&ie=UTF-8), [Caikit](https://www.google.com/search?q=caikit&sourceid=chrome&ie=UTF-8), and [vLLM](https://github.com/vllm-project/vllm).
+TrustyAI is a default component of [Open Data Hub](https://opendatahub.io/) and [Red Hat Openshift AI](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai), and has integrations with projects like [KServe](https://github.com/kserve/kserve), [Caikit](https://github.com/caikit/caikit), and [vLLM](https://github.com/vllm-project/vllm).
 
 ** **
 ## 🗂️ Our Projects 🗂️
