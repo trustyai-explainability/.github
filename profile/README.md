@@ -1,23 +1,24 @@
 # Welcome to TrustyAI 👋
-[TrustyAI](https://trustyai-explainability.github.io/trustyai-site/main/main.html) is an open source Responsible AI Toolkit supported by Red Hat and IBM. TrustyAI provides tools for a variety of responsible AI workflows, such as:
+
+[TrustyAI](https://trustyai-explainability.github.io/trustyai-site/main/main.html) is an open source Responsible AI toolkit supported by Red Hat and IBM. TrustyAI provides tools for a variety of responsible AI workflows, such as:
 - Local and global model explanations
 - Fairness metrics
 - Drift metrics
 - Text detoxification
-- Language Model Benchmarking
-- Language Model Guardrails
+- Language model benchmarking
+- Language model guardrails
 
-TrustyAI is a default component of Open Data Hub and Red Hat Openshift AI, and has integrations with projects like KServe, Caikit, and vLLM.
+TrustyAI is a default component of [Open Data Hub](https://opendatahub.io/) and [Red Hat Openshift AI](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai), and has integrations with projects like [KServe](https://www.google.com/search?q=kserve&sourceid=chrome&ie=UTF-8), [Caikit](https://www.google.com/search?q=caikit&sourceid=chrome&ie=UTF-8), and [vLLM](https://github.com/vllm-project/vllm).
 
-** **
+
 ## 🗂️ Our Projects 🗂️
+** **
+### TrustyAI Explainability
+The **[trustyai-explainability](https://github.com/trustyai-explainability/trustyai-explainability)** repo is our main hub, containing the **[TrustyAI Core Library](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-core)** and **[TrustyAI Service](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-service)**.
 
-### TrustyAI Core
-[TrustyAI Core](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-core) is a Java library for explainable and transparent AI, containing XAI algorithms, 
-drift metrics, fairness metrics, and language model accuracy metrics.  
+The **[TrustyAI Core Library](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-core)** is a Java library for explainable and transparent AI, containing XAI algorithms, drift metrics, fairness metrics, and language model accuracy metrics. 
 
-### TrustyAI Service
-The [TrustyAI Service](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-service) exposes TrustyAI Core as a containerized REST server, enabling responsible AI workflows in
+The **[TrustyAI Service](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-service)** exposes TrustyAI Core as a containerized REST server, enabling responsible AI workflows in
 cloud and distributed environments. The TrustyAI Service has the following integrations:
 * Connectivity to Open Data Hub model servers
 * Connectivity to Red Hat Openshift AI model servers
@@ -27,22 +28,26 @@ cloud and distributed environments. The TrustyAI Service has the following integ
 For example, you can deploy the TrustyAI service alongside KServe models in Open Data Hub to perform
 drift and bias measurements throughout your deployment.
 
+
 ### TrustyAI Python Library
-[TrustyAI Python](https://github.com/trustyai-explainability/trustyai-explainability-python) provides a Python interface to the TrustyAI Core library, which lets you use TrustyAI in more traditional data science environments like Jupyter. 
+**[TrustyAI Python](https://github.com/trustyai-explainability/trustyai-explainability-python)** provides a Python interface to the TrustyAI Core library, which lets you use TrustyAI in more traditional data science environments like Jupyter. 
+
 
 ### Language Model Evaluation Service  
-The [LM-Eval K8s Service](https://github.com/trustyai-explainability/trustyai-service-operator/tree/main/controllers/lmes) packages and serves EluetherAI's popular [LM-Evaluation-Harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks) library in a Kubernetes environment, allowing for scalable evaluations running against K8s LLM servers such as vLLM. 
+The **[LM-Eval K8s Service](https://github.com/trustyai-explainability/trustyai-service-operator/tree/main/controllers/lmes)** packages and serves EluetherAI's popular [LM-Evaluation-Harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks) library in a Kubernetes environment, allowing for scalable evaluations running against K8s LLM servers such as vLLM. 
+
 
 ### Language Model Guardrails Project
-The [Guardrails project](https://github.com/trustyai-explainability/fms-guardrails-orchestrator) provides a Kubernetes LLM guardrailing ecosystem, with dynamic, request-time pipelining of specific detectors and text chunkers. 
+The **[Guardrails project](https://github.com/trustyai-explainability/fms-guardrails-orchestrator)** provides a Kubernetes LLM guardrailing ecosystem, with dynamic, request-time pipelining of specific detectors and text chunkers. 
+
 
 ### TrustyAI Operator
-The [TrustyAI Kubernetes Operator](https://github.com/trustyai-explainability/trustyai-service-operator) manages the deployment of various TrustyAI components into a Kubernetes cluster. The TrustyAI operator is a default component of both Open Data Hub and Red Hat Openshift AI.
+The **[TrustyAI Kubernetes Operator](https://github.com/trustyai-explainability/trustyai-service-operator)** manages the deployment of various TrustyAI components into a Kubernetes cluster. The TrustyAI operator is a default component of both Open Data Hub and Red Hat Openshift AI.
 
 While these are our largest and most active projects, also check out our [full list of repos](https://github.com/orgs/trustyai-explainability/repositories) to see more experimental work like [trustyai-detoxify-sft](https://github.com/trustyai-explainability/trustyai-detoxify-sft).
 
-** **
 ##   📖 Resources 📖
+** **
 ### Documentation
 - [Service and Operator Documentation](https://trustyai-explainability.github.io/trustyai-site/main/features.html)
 - [Open Data Hub Documentation](https://opendatahub.io/docs/monitoring-data-science-models/#configuring-trustyai_monitor)
