@@ -10,9 +10,8 @@
 
 TrustyAI is a default component of [Open Data Hub](https://opendatahub.io/) and [Red Hat Openshift AI](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai), and has integrations with projects like [KServe](https://www.google.com/search?q=kserve&sourceid=chrome&ie=UTF-8), [Caikit](https://www.google.com/search?q=caikit&sourceid=chrome&ie=UTF-8), and [vLLM](https://github.com/vllm-project/vllm).
 
-
-## 🗂️ Our Projects 🗂️
 ** **
+## 🗂️ Our Projects 🗂️
 ### TrustyAI Explainability
 The **[trustyai-explainability](https://github.com/trustyai-explainability/trustyai-explainability)** repo is our main hub, containing the **[TrustyAI Core Library](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-core)** and **[TrustyAI Service](https://github.com/trustyai-explainability/trustyai-explainability/tree/main/explainability-service)**.
 
@@ -46,8 +45,8 @@ The **[TrustyAI Kubernetes Operator](https://github.com/trustyai-explainability/
 
 While these are our largest and most active projects, also check out our [full list of repos](https://github.com/orgs/trustyai-explainability/repositories) to see more experimental work like [trustyai-detoxify-sft](https://github.com/trustyai-explainability/trustyai-detoxify-sft).
 
-##   📖 Resources 📖
 ** **
+##   📖 Resources 📖
 ### Documentation
 - [Service and Operator Documentation](https://trustyai-explainability.github.io/trustyai-site/main/features.html)
 - [Open Data Hub Documentation](https://opendatahub.io/docs/monitoring-data-science-models/#configuring-trustyai_monitor)
@@ -71,9 +70,10 @@ While these are our largest and most active projects, also check out our [full l
 ### Development Notes
 * [TrustyAI Reference](https://github.com/trustyai-explainability/reference/tree/main) provides scratch notes on various common development and testing flows
 
+
 ** **
 ## 🤝 Join Us 🤝
-Check out our [community repository](https://github.com/trustyai-explainability/community) for [discussions](https://github.com/orgs/trustyai-explainability/discussions) and our [Community Meeting information](https://github.com/trustyai-explainability/community?tab=readme-ov-file#community-meetings). 
+Check out our [community repository](https://github.com/trustyai-explainability/community) for [discussions](https://github.com/orgs/trustyai-explainability/discussions) and our [Community Meeting information](https://github.com/trustyai-explainability/community?tab=readme-ov-file#community-meetings).
 
 The [project roadmap](https://github.com/orgs/trustyai-explainability/projects/10) offers a view on new tools and integration the project developers are planning to add.
 
