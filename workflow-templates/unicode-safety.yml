@@ -2,7 +2,7 @@ name: Unicode Safety Check
 
 on:
   pull_request:
-    branches: [main, master]
+    branches: [main, master, develop]
   schedule:
     - cron: '0 3 * * 0'  # Weekly full scan (Sundays 3 AM)
 
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: ${{ github.event_name == 'schedule' && 0 || 2 }}
 
       - name: Unicode Safety Check
         uses: dcondrey/unicode-safety-check@v3.0.0

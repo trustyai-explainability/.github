@@ -4,8 +4,6 @@
   "iconName": "shield",
   "categories": ["security", "code-scanning"],
   "filePatterns": [
-    "*.md$",
-    "CLAUDE.md$",
-    "AGENTS.md$"
+    "*.md$"
   ]
 }
