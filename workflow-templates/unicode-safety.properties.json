@@ -2,8 +2,5 @@
   "name": "Unicode Safety Check",
   "description": "Detect hidden unicode characters (ASCII smuggling protection)",
   "iconName": "shield",
-  "categories": ["security", "code-scanning"],
-  "filePatterns": [
-    "*.md$"
-  ]
+  "categories": ["security", "code-scanning"]
 }
