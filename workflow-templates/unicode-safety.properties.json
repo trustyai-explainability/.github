@@ -1,0 +1,11 @@
+{
+  "name": "Unicode Safety Check",
+  "description": "Detect hidden unicode characters (ASCII smuggling protection)",
+  "iconName": "shield",
+  "categories": ["security", "code-scanning"],
+  "filePatterns": [
+    "*.md$",
+    "CLAUDE.md$",
+    "AGENTS.md$"
+  ]
+}
