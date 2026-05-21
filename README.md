@@ -30,9 +30,9 @@ Detects hidden unicode characters used in ASCII smuggling attacks.
 
 **Features:**
 - Runs on pull requests (scans changed files only)
-- Weekly full repo scan (Sundays 3 AM)
-- SARIF upload to Security → Code scanning alerts
-- Zero configuration required
+- Weekly full repo scan (Sundays 3 AM UTC)
+- Manual trigger via workflow_dispatch
+- Minimal configuration required (customize branches if needed)
 
 **Optional: Pre-commit hook integration**
 
@@ -48,6 +48,8 @@ repos:
 ```
 
 See [template source](workflow-templates/unicode-safety.yml) for implementation details.
+
+**Note:** Template triggers on `main`, `master`, and `develop` branches. Customize `branches:` list for your repo's branch strategy.
 
 ## References
 
